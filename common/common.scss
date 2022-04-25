@@ -9,9 +9,9 @@
 
   @mixin box-shadow($value: 0px) {
   box-shadow: 0 24px 40px rgba(0, 0, 0, 0.005),
-    0 10.8529px 24.1177px rgba(0, 0, 0, 0.005),
-    0 4.50776px 10.0172px rgba(0, 0, 0, 0.005),
-    0 1.63037px 3.62304px rgba(0, 0, 0, 0.005);
+    0 10.8529px 24.1177px rgba(0, 0, 0, 0.01),
+    0 4.50776px 10.0172px rgba(0, 0, 0, 0.01),
+    0 1.63037px 3.62304px rgba(0, 0, 0, 0.01);
 }
   
   .welcome-link-banner {
@@ -28,6 +28,7 @@
   @media screen and (max-width: 700px) {
     padding: 1.5em;
     margin-top: 1.5em;
+    margin-bottom: 1.5em;
     }
   padding-bottom: 0.5% !important; //overriding inline style
   @include box-shadow;
