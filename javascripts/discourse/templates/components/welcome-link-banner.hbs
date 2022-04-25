@@ -3,14 +3,8 @@
   {{#unless (and (theme-setting 'hide_on_mobile') site.mobileView)}}
     {{#if (and showTrust showHere)}}
       <div class="welcome-link-banner-wrapper">
-        <div class="wrap welcome-link-banner">
-          <div class="welcome-wrapper">
-            <div class="welcome-content">
               <h2>{{html-safe (theme-i18n "meta_banner.welcome")}}</h2>
               <p>{{html-safe (theme-i18n "meta_banner.subtitle")}}</p>
-            </div>
-          </div>
-        </div>
       </div>
     {{/if}}
   {{/unless}}
