@@ -113,7 +113,7 @@
       text-align: left;
       padding: 2.5em 2em 3em;
 
-      p {
+      text2 {
         margin-bottom: 0;
       }
     }
@@ -121,7 +121,7 @@
     @media screen and (max-width: 930px) {
       flex-wrap: wrap;
 
-      p {
+      text2 {
         max-width: 500px;
       }
 
