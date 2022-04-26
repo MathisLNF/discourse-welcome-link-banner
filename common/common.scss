@@ -55,13 +55,16 @@
       font-size: 1.75em;
       line-height: 1.2;
     }
+    
+    #intro-ban {
+      padding-top: 0.8em;
+    }
 
     @media screen and (max-width: 930px) {
       flex-wrap: wrap;
 
       #intro-ban {
         max-width: 500px;
-        padding-top: 0.8em;
       }
 
     @media screen and (max-width: 600px) {
