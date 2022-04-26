@@ -113,7 +113,7 @@
       text-align: left;
       padding: 2.5em 2em 3em;
 
-      pban {
+      #intro-ban {
         margin-bottom: 0;
       }
     }
@@ -121,7 +121,7 @@
     @media screen and (max-width: 930px) {
       flex-wrap: wrap;
 
-      pban {
+      #intro-ban {
         max-width: 500px;
         text-align: justify;
         padding-top: 0.8em;
