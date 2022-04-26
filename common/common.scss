@@ -30,7 +30,7 @@
     margin-top: 1.5em;
     margin-bottom: 1.5em;
     }
-  padding-bottom: 0.5% !important; //overriding inline style
+  padding-bottom: 25px; //overriding inline style
   @include box-shadow;
   @media screen and (max-width: 1120px) {
     width: 80%;
