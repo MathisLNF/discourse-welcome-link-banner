@@ -41,16 +41,6 @@
     }
   }
 
-  .welcome-wrapper {
-    flex: 0 1 auto;
-    margin-top: 2em;
-    box-sizing: border-box;
-    display: flex;
-    justify-content: center;
-    box-shadow: shadow("card");
-    margin: 2.5em auto;
-    background: #{$banner-box-background-color};
-
     h2 {
       font-size: 1.75em;
       line-height: 1.2;
@@ -71,6 +61,5 @@
       max-width: 80vw;
       padding: 0;
       }
-    }
   }
 }
