@@ -15,6 +15,15 @@
 }
   
   .welcome-link-banner {
+    box-sizing: border-box;
+    width: 100%;
+    display: grid;
+    grid-template-areas: "content";
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0;
+    }
+  
+  .welcome-wrapper {
     background-color: white;
     text-align: justify;
     border-radius: 1em;
